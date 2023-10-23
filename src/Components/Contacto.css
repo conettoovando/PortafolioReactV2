@@ -1,0 +1,38 @@
+.ConctoScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: block;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    padding: 3rem;
+    width: 90%;
+    height: 70%;
+    background: rgba(36, 36, 36, 0.4);
+    outline: 2px solid #555;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.ConctoScreen .container h2 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.ConctoScreen .container:hover {
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 2rem;
+}

@@ -1,0 +1,162 @@
+.SobreMi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.SobreMiContainer {
+    display: block;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    padding: 3rem;
+    width: 90%;
+    height: 70%;
+    background: rgba(36, 36, 36, 0.4);
+    outline: 2px solid #555;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.SobreMiContainer:hover {
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.SobreMiContainer img {
+    float: left;
+    height: calc(100% - 4rem);
+    width: 25%;
+    object-fit: cover;
+    border-radius: 2.5%;
+    -webkit-border-radius: 2.5%;
+    -moz-border-radius: 2.5%;
+    -ms-border-radius: 2.5%;
+    -o-border-radius: 2.5%;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.SobreMiContainer:hover img {
+    border-radius: 10px;
+    height: calc(100% - 3rem);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.SobreMiContainer h2 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.SobreMiContainer p {
+    float: left;
+    width: calc(75% - 2rem);
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.buttonsContainer {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.SobreMiContainer:hover .buttonsContainer {
+    padding-top: 0.5rem;
+}
+
+.buttonsContainer .selectedOption {
+    background-color: cadetblue;
+}
+
+.buttonsContainer button {
+    width: 20%;
+    height: 3rem;
+    outline: 2px solid #555;
+    border-radius: 10px;
+    background: rgba(36, 36, 36, 0.4);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.buttonsContainer button:hover {
+    background: rgba(36, 36, 36, 0.8);
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+.SobreMi .SobreMiContainer .tecContainer {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.tecContainer .tecDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tecContainer .tecDescription p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.tecContainer .tecDescription .tecIcon {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 0.5rem;
+}
+
+.SobreMiContainer:hover .tecContainer {
+    margin-top: 2rem;
+}

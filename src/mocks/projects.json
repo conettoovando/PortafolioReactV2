@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Proyecto de titulo universitario",
+            "pre_description": "Este proyecto realizado en react native, tiene como objetivo principal, ayudar a los usuarios a encontrar los beneficios de los videojuegos, ya sea para la salud mental, fisica, entre otros mediante una aplicacion movil.",
+            "description": "",
+            "Images": [
+                "https://i.imgur.com/Jkq4vOc.png",
+                "https://i.imgur.com/aQug2Ia.jpeg"
+            ],
+            "gh": "https://github.com/conettoovando/Cublit"
+        },
+        {
+            "id": 2,
+            "name": "Project 2",
+            "description": "This is project 2"
+        },
+        {
+            "id": 3,
+            "name": "Project 3",
+            "description": "This is project 3"
+        }
+    ]
+}
