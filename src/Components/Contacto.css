@@ -36,3 +36,33 @@
     border-radius: 10px;
     padding: 2rem;
 }
+
+.ConctoScreen .container p,
+.ContactoScreen .container span {
+    line-height: 1.5rem;
+}
+
+.w-9 {
+    display: flex;
+    background-color: red;
+    width: 90%;
+    margin: 2vh auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 0.5rem;
+}
+
+.tituloContacto {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
