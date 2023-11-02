@@ -16,7 +16,7 @@ export default function Proyectos(){
             {projects.map((project) => (
               <article className='project' key={project.id}>
                   <h3>{project.name}</h3>
-                  <p className='textDescription'>{project.pre_description}</p>
+                  <p className='textDescription text'>{project.pre_description}</p>
                   <img src={project.Images?.[0]} alt={project.name} />
                   <div className="link-container">
                     <a  href={project.gh} target='_blank' rel="noreferrer">Code</a>

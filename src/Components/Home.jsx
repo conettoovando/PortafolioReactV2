@@ -7,7 +7,9 @@ export default function Home(){
             <img src={profileImage} alt='Foto de perfil'/>
             <div className="content">
                 <h1>Bienvenidos 👋<br />Soy Cristian Onetto</h1>
-                <p>Desarrollador Web Full Stack</p>
+                <p>
+                    Ing. en computación e informática
+                </p>
             </div>
         </section>   
     )

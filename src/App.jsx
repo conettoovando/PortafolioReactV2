@@ -2,12 +2,12 @@ import Home from "./Components/Home"
 import SobreMi from "./Components/SobreMi"
 import Proyectos from "./Components/Proyectos"
 import Contacto from "./Components/Contacto"
-import Modal from "./Components/Navbar"
+import Navbar from "./Components/Navbar"
 
 function App() {
   return (
     <>
-      <Modal/>
+      <Navbar/>
       <div id="Home">
         <Home/>
       </div>

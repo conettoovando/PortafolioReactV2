@@ -8,7 +8,7 @@
 .projectScreen .container {
     width: 90%;
     min-height: 70vh;
-    margin-top: 10vh;
+    margin-block: 10vh;
     padding: 2rem 3rem 3rem 3rem;
     background: rgba(36, 36, 36, 0.4);
     outline: 2px solid #555;
@@ -28,7 +28,7 @@
 }
 
 .projectScreen .container .projectContainer .project {
-    outline: 1px initial #cccccc94;
+    outline: 1px dotted #cccccc94;
     border-radius: 5px;
     width: 95%;
     height: 100%;
@@ -55,8 +55,8 @@
 }
 
 .textDescription {
-    font-size: 1.3rem;
     font-weight: 400;
+    font-size: 1.1rem;
     margin-bottom: 20px;
     line-height: 1.5;
     text-align: justify;

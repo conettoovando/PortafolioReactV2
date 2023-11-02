@@ -30,19 +30,19 @@ nav {
     justify-content: space-around;
     align-items: center;
     border-radius: 25px;
-    background-color: rgba(204, 204, 204, 0.6);
-    z-index: 4 !important;
+    background-color: #D9D9D9;
+    z-index: 1 !important;
 }
 
-li a {
+li .link {
     color: black;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.2rem;
 }
 
-li a:hover {
-    color: #fff;
+li .link:hover {
+    color: #444;
     cursor: pointer;
 }
 

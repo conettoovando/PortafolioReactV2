@@ -14,14 +14,9 @@ export default function SobreMi(){
             <div className="SobreMiContainer">
                 <h2>🫡 Sobre Mi</h2>
                 <img src={LapTop} alt="" />
-                <p>
-                    Soy un joven ingeniero informático de 22 años con una gran pasión por el mundo de la programación y la tecnología.
-                </p>
-                <p>
-                    Me interesa profundizar mis conocimientos sin limitarme, por lo qué, estoy comprometido al aprendizaje constante asumiendo nuevos 
-                </p>
-                <p>
-                    desafíos y explorando diversas tecnologías.Mis conocimientos constan de:
+                <p className='text'>
+                    Soy un joven ingeniero informático de 22 años con una gran pasión por el mundo de la programación y la tecnología.<br/><br/>
+                    Me interesa profundizar mis conocimientos sin limitarme, por lo qué, estoy comprometido al aprendizaje constante asumiendo nuevos desafíos y explorando diversas tecnologías.Mis conocimientos constan de:
                 </p>
                 <div className="buttonsContainer">
                     {options.map(option => (
