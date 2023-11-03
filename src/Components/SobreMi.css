@@ -71,7 +71,7 @@
 .SobreMiContainer p {
     float: left;
     width: calc(75% - 2rem);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: justify;
     margin-left: 2rem;
     margin-bottom: 1rem;
@@ -92,7 +92,7 @@
 }
 
 .SobreMiContainer:hover .buttonsContainer {
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 .buttonsContainer .selectedOption {
@@ -100,14 +100,14 @@
 }
 
 .buttonsContainer button {
-    width: 20%;
-    height: 3rem;
+    width: 12rem;
+    height: 2.2rem;
     outline: 2px solid #555;
     border-radius: 10px;
     background: rgba(36, 36, 36, 0.4);
     color: #fff;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -144,8 +144,8 @@
 }
 
 .tecContainer .tecDescription p {
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 0.9rem;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     text-align: center;

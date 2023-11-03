@@ -1,7 +1,15 @@
 import './NavBar.css';
 import { Link } from 'react-scroll';
+import audioOrg from '../assets/sonido2.mp3'
 
 export default function Navbar() {
+    const playSound = () => {
+        const audio = new Audio(audioOrg);
+        audio.volume = 0.05;
+        audio.currentTime = 0.5;
+        audio.play();
+    };
+
     return (
         <nav>
             <input id="menu-toggle" type="checkbox" />
@@ -17,6 +25,7 @@ export default function Navbar() {
                             smooth={true}
                             duration={500}
                             className='link'
+                            onClick={() => playSound()}
                         >
                             Inicio
                         </Link>
@@ -29,6 +38,7 @@ export default function Navbar() {
                             smooth={true}
                             duration={500}
                             className='link'
+                            onClick={() => playSound()}
                         >
                             Sobre mi
                         </Link>
@@ -41,6 +51,7 @@ export default function Navbar() {
                             smooth={true}
                             duration={500}
                             className='link'
+                            onClick={() => playSound()}
                         >
                             Proyectos
                         </Link>
@@ -53,6 +64,7 @@ export default function Navbar() {
                             smooth={true}
                             duration={500}
                             className='link'
+                            onClick={() => playSound()}
                         >
                             Contacto
                         </Link>

@@ -1,0 +1,53 @@
+.modal {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, .4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.is-open {
+    display: flex;
+}
+
+.modal-container {
+    position: relative;
+    padding: 1rem;
+    min-width: 70%;
+    height: 80vh;
+    background: rgb(17, 16, 16);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+.modal-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+.modal-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background: none;
+}
