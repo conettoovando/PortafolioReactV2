@@ -18,7 +18,7 @@
 .modal-container {
     position: relative;
     padding: 1rem;
-    min-width: 70%;
+    width: 70%;
     height: 80vh;
     background: rgb(17, 16, 16);
     overflow-y: auto;
@@ -45,10 +45,17 @@
     background-color: transparent;
 }
 
+.closeContainer {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: flex-end;
+}
+
 .modal-close {
-    position: absolute;
+    position: sticky;
     top: 1rem;
-    right: 1rem;
+    right: 0rem;
     width: 1.5rem;
     height: 1.5rem;
     font-size: 1.2rem;

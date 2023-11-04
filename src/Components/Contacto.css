@@ -226,3 +226,9 @@ fieldset:disabled .btn {
         -o-transform: translateX(10px);
     }
 }
+
+@media screen and (max-width: 1366px) {
+    .ConctoScreen .container p {
+        font-size: 1rem;
+    }
+}

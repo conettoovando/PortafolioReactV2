@@ -161,3 +161,50 @@
 .SobreMiContainer:hover .tecContainer {
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 1366px) {
+    .SobreMiContainer {
+        padding: 2rem;
+    }
+
+    .SobreMiContainer:hover .buttonsContainer {
+        padding-top: 0;
+    }
+
+    .SobreMiContainer:hover {
+        padding: 1rem;
+    }
+
+    .SobreMiContainer img {
+        width: 20%;
+    }
+
+    .SobreMiContainer p {
+        width: calc(75% - 2rem);
+        font-size: 1rem;
+        margin-left: 2rem;
+    }
+
+    .buttonsContainer {
+        width: 80%;
+    }
+
+    .buttonsContainer button {
+        width: 10rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+
+    .SobreMi .SobreMiContainer .tecContainer {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .tecContainer .tecDescription p {
+        font-size: 0.8rem;
+    }
+
+    .tecContainer .tecDescription .tecIcon {
+        width: 3rem;
+        height: 3rem;
+    }
+}

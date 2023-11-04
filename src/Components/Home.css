@@ -34,5 +34,23 @@
     font-size: 2rem;
     padding: 0 0 0 2rem;
     text-align: center;
+}
 
+@media screen and (max-width:1366px) {
+    .Home .content h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        padding: 0 0 0 2rem;
+        text-align: left;
+    }
+
+    .Home .content p {
+        font-size: 1.25rem;
+        padding: 0 0 0 2rem;
+        text-align: center;
+    }
+
+    .Home img {
+        width: 250px;
+    }
 }
