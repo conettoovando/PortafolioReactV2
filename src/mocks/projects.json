@@ -4,9 +4,11 @@
             "id": 1,
             "name": "Proyecto de titulo universitario",
             "pre_description": "Este proyecto realizado en react native, tiene como objetivo principal, ayudar a los usuarios a encontrar los beneficios de los videojuegos, ya sea para la salud mental, fisica, entre otros mediante una aplicacion movil.",
-            "description": "soy un joven  \n\n hola \n\n\n hola",
+            "description": "Para la presentación de mi titulo de grado para ing. en computación e informática surgio la idea de crear un proyecto orientado a los beneficios de los videojuegos por categorias, para esto se creo una aplicación movil en React Native. \n La aplicación cuenta con un Login y registro de usuarios, los cuales tendrán acceso a multiples vistas y servicios, tales como: \n\n <div class='modalML5'><ul><li>Pantalla de inicio: En la pantalla principal se pueden encontrar publicaciones de beneficios de videojuegos de todos los generos seleccionados por el usuario</li></ul></div>",
             "Images": [
                 "https://i.imgur.com/Jkq4vOc.png",
+                "https://i.imgur.com/aQug2Ia.jpeg",
+                "https://i.imgur.com/aQug2Ia.jpeg",
                 "https://i.imgur.com/aQug2Ia.jpeg"
             ],
             "gh": "https://github.com/conettoovando/Cublit"

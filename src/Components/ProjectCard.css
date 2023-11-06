@@ -15,7 +15,7 @@
     text-align: justify;
     padding: 10px;
     font-size: 1.25rem;
-    line-height: 1rem;
+    line-height: 1.5;
     margin: 0;
 }
 
@@ -48,20 +48,23 @@
 }
 
 .carrousel .img {
-    width: calc(100% / 2);
-    background-color: lime;
     min-height: 10vh;
 }
 
 .carrousel .puntos {
     width: 100%;
-    background-color: red;
+    background-color: gray;
     padding: .4em;
     margin: 1em 0 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .carrousel .punto {
@@ -81,4 +84,31 @@
 .carrousel .punto.activo {
     background-color: orange;
     cursor: default;
+}
+
+/* TEXT STYLES */
+.modalText-center {
+    text-align: center;
+}
+
+.modalM5 {
+    margin: 5rem;
+}
+
+.modalML5 {
+    margin-left: 5rem;
+}
+
+.modalRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+
+@media screen and (max-width:600px) {
+    .carrousel {
+        width: 100%;
+    }
 }

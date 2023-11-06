@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     background-color: rgba(0, 0, 0, .4);
     display: none;
     justify-content: center;
@@ -63,4 +63,16 @@
     color: white;
     border: none;
     background: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .modal-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal-container {
+        width: 100%;
+    }
 }

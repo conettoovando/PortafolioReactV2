@@ -227,7 +227,7 @@ fieldset:disabled .btn {
     }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1440px) {
     .ConctoScreen .container p {
         font-size: 1rem;
     }

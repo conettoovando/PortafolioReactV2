@@ -18,7 +18,6 @@
     padding: 3rem;
     width: 90%;
     height: 70%;
-    margin-block: 10vh;
     background: rgba(36, 36, 36, 0.4);
     outline: 2px solid #555;
     transition: all 0.5s ease;
@@ -32,7 +31,7 @@
     border: 2px solid #fff;
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
     border-radius: 10px;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .SobreMiContainer img {
@@ -54,7 +53,7 @@
 
 .SobreMiContainer:hover img {
     border-radius: 10px;
-    height: calc(100% - 3rem);
+    height: calc(100% - 2rem);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -162,17 +161,14 @@
     margin-top: 2rem;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1440px) {
     .SobreMiContainer {
-        padding: 2rem;
+        height: fit-content;
+        min-height: 70%;
     }
 
     .SobreMiContainer:hover .buttonsContainer {
         padding-top: 0;
-    }
-
-    .SobreMiContainer:hover {
-        padding: 1rem;
     }
 
     .SobreMiContainer img {
