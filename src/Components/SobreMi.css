@@ -3,11 +3,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     text-align: center;
-    overflow: hidden;
 }
 
 .SobreMiContainer {
@@ -17,7 +16,8 @@
     align-items: baseline;
     padding: 3rem;
     width: 90%;
-    height: 70%;
+    min-height: 70%;
+    margin: 5rem;
     background: rgba(36, 36, 36, 0.4);
     outline: 2px solid #555;
     transition: all 0.5s ease;
@@ -28,7 +28,7 @@
 }
 
 .SobreMiContainer:hover {
-    border: 2px solid #fff;
+    outline: 2px solid #fff;
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
     border-radius: 10px;
     padding: 3rem;
@@ -37,7 +37,7 @@
 .SobreMiContainer img {
     float: left;
     height: calc(100% - 4rem);
-    width: 25%;
+    width: 20%;
     object-fit: cover;
     border-radius: 2.5%;
     -webkit-border-radius: 2.5%;
@@ -152,9 +152,10 @@
 }
 
 .tecContainer .tecDescription .tecIcon {
-    width: 4rem;
-    height: 4rem;
-    margin-top: 0.5rem;
+    width: 4rem !important;
+    height: 4rem !important;
+    margin: .5rem;
+    object-fit: contain;
 }
 
 .SobreMiContainer:hover .tecContainer {
@@ -177,7 +178,7 @@
 
     .SobreMiContainer p {
         width: calc(75% - 2rem);
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin-left: 2rem;
     }
 
@@ -200,7 +201,114 @@
     }
 
     .tecContainer .tecDescription .tecIcon {
-        width: 3rem;
-        height: 3rem;
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .SobreMiContainer img {
+        width: 30%;
+        height: min-content !important;
+    }
+
+    .SobreMiContainer p {
+        width: 60%;
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+
+    .buttonsContainer {
+        width: 70%;
+    }
+
+    .SobreMi .SobreMiContainer .tecContainer {
+        width: fit-content;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .SobreMiContainer p {
+        float: none;
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+
+    .SobreMiContainer img {
+        float: none;
+        width: 100%;
+        max-height: 20rem;
+        object-fit: contain;
+        margin-bottom: 1rem;
+    }
+
+    .buttonsContainer {
+        width: 100%;
+    }
+
+    .SobreMi .SobreMiContainer .tecContainer {
+        width: 100%;
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .SobreMiContainer {
+        padding: 1rem;
+    }
+
+    .SobreMiContainer:hover {
+        outline: 2px solid #fff;
+        box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    .SobreMiContainer p {
+        float: none;
+        width: 100%;
+        margin: 0 0 1rem 0;
+        font-size: 1.1rem;
+    }
+
+    .SobreMiContainer img {
+        float: none;
+        width: 100%;
+        max-height: 20rem;
+        object-fit: contain;
+        margin-bottom: 1rem;
+    }
+
+    .buttonsContainer {
+        width: 100%;
+    }
+
+    .SobreMi .SobreMiContainer .tecContainer {
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .buttonsContainer button {
+        width: 8rem;
+        height: 2rem;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .SobreMiContainer {
+        width: 100%;
+    }
+
+    .SobreMiContainer:hover {
+        outline: 2px 0 solid #fff;
+        box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 1);
+        border-radius: 10px;
+    }
+
+    .buttonsContainer button {
+        width: 6rem;
+        font-size: .8rem;
     }
 }

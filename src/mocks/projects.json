@@ -4,14 +4,37 @@
             "id": 1,
             "name": "Proyecto de titulo universitario",
             "pre_description": "Este proyecto realizado en react native, tiene como objetivo principal, ayudar a los usuarios a encontrar los beneficios de los videojuegos, ya sea para la salud mental, fisica, entre otros mediante una aplicacion movil.",
-            "description": "Para la presentación de mi titulo de grado para ing. en computación e informática surgio la idea de crear un proyecto orientado a los beneficios de los videojuegos por categorias, para esto se creo una aplicación movil en React Native. \n La aplicación cuenta con un Login y registro de usuarios, los cuales tendrán acceso a multiples vistas y servicios, tales como: \n\n <div class='modalML5'><ul><li>Pantalla de inicio: En la pantalla principal se pueden encontrar publicaciones de beneficios de videojuegos de todos los generos seleccionados por el usuario</li></ul></div>",
+            "description": "Para la presentación de mi titulo de grado para ing. en computación e informática surgio la idea de crear un proyecto orientado a los beneficios de los videojuegos por categorias, para esto se creo una aplicación movil en React Native. \n La aplicación cuenta con un Login y registro de usuarios, los cuales tendrán acceso a multiples vistas y servicios, tales como: \n\n <div class='modalML5'><ul><li class='list-item'><span class='categoria'>Pantalla de inicio:</span><span class='modalML1 contenido'>En la pantalla principal se pueden encontrar publicaciones de beneficios de videojuegos de todos los generos seleccionados por el usuario</span></li><li class='list-item'><span class='categoria'>Pantalla de foro:</span><span class='modalML1 contenido'>Busqueda de foros por videojuego especifico con publicaciones creadas por usuarios</span></li><li class='list-item'><span class='categoria'>Pantalla de Chat:</span><span class='modalML1 contenido'>Los usuarios pueden añadir y comunicarse con otros usuarios previamente añadidos a la lista de amigos</span></li><li class='list-item'><span class='categoria'>Pantalla de perfil:</span><span class='modalML1 contenido'>El usuario puede modificar su perfil y visualizar las publicaciones creadas</span></li></ul></div>",
             "Images": [
                 "https://i.imgur.com/Jkq4vOc.png",
                 "https://i.imgur.com/aQug2Ia.jpeg",
                 "https://i.imgur.com/aQug2Ia.jpeg",
                 "https://i.imgur.com/aQug2Ia.jpeg"
             ],
-            "gh": "https://github.com/conettoovando/Cublit"
+            "gh": "https://github.com/conettoovando/Cublit",
+            "tec": [
+                {
+                    "id": 1,
+                    "name": "React Native",
+                    "icon": "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png"
+                },
+                {
+                    "id": 2,
+                    "name": "Firebase",
+                    "icon": "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png?hl=es-419"
+                },
+                {
+                    "id": 3,
+                    "name": "IGDB",
+                    "icon": "data:image/png;base64,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"
+                },
+                {
+                    "id": 4,
+                    "name": "GIT",
+                    "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+                }
+            ],
+            "video": "https://youtu.be/IoMWvjduG7E?si=T02SIJwaYI-Okb_c"
         },
         {
             "id": 2,

@@ -12,11 +12,11 @@
 
 .modalContent {
     color: white;
-    text-align: justify;
-    padding: 10px;
-    font-size: 1.25rem;
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
-    margin: 0;
+    margin-inline: 1rem;
 }
 
 .carrousel {
@@ -24,7 +24,7 @@
     margin: 0 auto;
     width: 50%;
     max-width: 120em;
-    padding: 2em;
+    padding: 1em;
     overflow: hidden;
 }
 
@@ -33,12 +33,12 @@
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-    padding: 2em;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    padding-inline: 2em;
+    transition: all .8s ease !important;
+    -webkit-transition: all .8s ease !important;
+    -moz-transition: all .8s ease !important;
+    -ms-transition: all .8s ease !important;
+    -o-transition: all .8s ease !important;
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -70,7 +70,7 @@
 .carrousel .punto {
     width: 2em;
     height: 2em;
-    margin: 1em 1em 0;
+    margin: .5em 1em .5em 1em;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -91,6 +91,10 @@
     text-align: center;
 }
 
+.modalML1 {
+    margin-left: 0rem;
+}
+
 .modalM5 {
     margin: 5rem;
 }
@@ -99,13 +103,57 @@
     margin-left: 5rem;
 }
 
-.modalRow {
+.list-item {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: start;
+    display: list-item;
 }
 
+.categoria {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ff6600;
+    margin-right: .5rem;
+}
+
+.contenido {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.tecContainer {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.textIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.tecIcon {
+    outline: none !important;
+    background: none !important;
+    height: 3rem !important;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.blockCenter {
+    display: block;
+    margin: 0 auto;
+}
+
+.spacebottom {
+    margin-bottom: 5rem;
+}
 
 @media screen and (max-width:600px) {
     .carrousel {

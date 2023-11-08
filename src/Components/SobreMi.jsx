@@ -36,7 +36,7 @@ export default function SobreMi(){
                             value={option.value}
                             className={selected === option.value ? 'selectedOption' : 'noSelectedOption'}
                         >
-                            {option.label}
+                            {option.label === 'Lenguajes' ? <i className="fas fa-code"></i> : option.label === 'Frameworks' ? <i className="fas fa-cubes"></i> : <i className="fas fa-sitemap"></i>} {option.label}
                         </button>
                     ))}
                 </div>

@@ -32,15 +32,23 @@ export default function ProjectCard({ project }) {
     punto[e].classList.add('activo');
   }
 
+  var getImageLength = project.tec?.length ?? 0; 
+  console.log(getImageLength);
+
   return (
     <article className='project'>
       <h3>{project.name}</h3>
       <p className='textDescription text'>{project.pre_description}</p>
       <img src={project.Images?.[0]} alt={project.name} />
       <div className="link-container">
-        <a href={project.gh} target='_blank' rel="noreferrer">Code</a>
-        <a className='yellow' onClick={openModal}>Ver más</a>
-        <Suspense fallback={<div>Loading...</div>}>
+        <a href={project.gh} target='_blank' rel="noreferrer">
+          <i className="fab fa-github"></i> Code
+        </a>
+        <a className='yellow' onClick={openModal}>
+          <i class="fas fa-caret-right"></i> Ver más
+        </a>
+      </div>
+      <Suspense fallback={<div>Loading...</div>}>
           {isOpen && (
             <LazyModal isOpen={isOpen} closeModal={closeModal}>
                 <h3 className='modalTitle'>{project.name}</h3>
@@ -60,10 +68,30 @@ export default function ProjectCard({ project }) {
                     ))}
                   </ul>
                 </div>
+                <p className='modalContent'>La funcionalidad de esta aplicación se logro mediante la integración de distintos servicios / frameworks tales como:</p>
+                <div className='tecContainer' style={ getImageLength < 5 ? {gridTemplateColumns: `repeat(${getImageLength},1fr)`} : null}>
+                  {project.tec.map((tecnologia) => (
+                    <div key={tecnologia.id}>
+                      <span className='textIcon'>{tecnologia.name}</span>
+                      <img src={tecnologia.icon} alt={tecnologia.name} className='tecIcon' key={tecnologia.id} />
+                    </div>
+                  ))}
+                </div>
+                <p className="modalContent ">
+                  Si te interesa saber más de esta aplicación puedes visitar el repositorio en GitHub o visualizarla en el siguiente video de YouTube:
+                </p>
+                <div className="link-container">
+                  <a href={project.gh} target='_blank' rel="noreferrer">
+                    <i className="fab fa-github"></i> GitHub
+                  </a>
+                  <a className='yellow' href={project.video} target='_blank' rel='noreferrer'>
+                    <i className="fab fa-youtube"></i> Youtube
+                  </a>
+              </div>
+              <div className="spacebottom"></div>
             </LazyModal>
           )}
         </Suspense>
-      </div>
     </article>
   );
 }
