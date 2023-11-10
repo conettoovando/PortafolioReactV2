@@ -7,9 +7,9 @@
 }
 
 .container {
-    display: block;
+    display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    justify-content: flex-start;
     align-items: baseline;
     padding: 3rem;
     width: 90%;
@@ -229,6 +229,28 @@ fieldset:disabled .btn {
 
 @media screen and (max-width: 1440px) {
     .ConctoScreen .container p {
-        font-size: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ConctoScreen .container p {
+        font-size: 1.2rem;
+    }
+
+    .ConctoScreen .container {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ConctoScreen .container p {
+        font-size: 1.1rem;
+    }
+
+    .ConctoScreen .container,
+    .ConctoScreen .container:hover {
+        width: 100%;
+        padding: 1rem;
     }
 }

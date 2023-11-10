@@ -22,7 +22,7 @@
 .carrousel {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
     max-width: 120em;
     padding: 1em;
     overflow: hidden;
@@ -48,7 +48,9 @@
 }
 
 .carrousel .img {
-    min-height: 10vh;
+    width: 100%;
+    min-height: 50vh;
+    object-fit: contain;
 }
 
 .carrousel .puntos {
@@ -155,8 +157,15 @@
     margin-bottom: 5rem;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .carrousel {
         width: 100%;
+        padding: 0;
+    }
+
+    .carrousel .grande {
+        padding: 0;
+        gap: 0;
+
     }
 }

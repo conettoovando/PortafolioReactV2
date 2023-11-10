@@ -214,7 +214,6 @@
 
     .SobreMiContainer p {
         width: 60%;
-        font-size: 1.2rem;
         margin-left: 2rem;
     }
 
@@ -233,6 +232,7 @@
         float: none;
         width: 100%;
         margin: 0 0 2rem 0;
+        font-size: 1.2rem;
     }
 
     .SobreMiContainer img {

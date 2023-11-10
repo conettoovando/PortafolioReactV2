@@ -17,3 +17,9 @@ body {
 .no-scroll {
   overflow: hidden;
 }
+
+@media (max-width: 360px) {
+  * {
+    overflow: auto;
+  }
+}

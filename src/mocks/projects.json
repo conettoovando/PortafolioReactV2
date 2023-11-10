@@ -7,9 +7,10 @@
             "description": "Para la presentación de mi titulo de grado para ing. en computación e informática surgio la idea de crear un proyecto orientado a los beneficios de los videojuegos por categorias, para esto se creo una aplicación movil en React Native. \n La aplicación cuenta con un Login y registro de usuarios, los cuales tendrán acceso a multiples vistas y servicios, tales como: \n\n <div class='modalML5'><ul><li class='list-item'><span class='categoria'>Pantalla de inicio:</span><span class='modalML1 contenido'>En la pantalla principal se pueden encontrar publicaciones de beneficios de videojuegos de todos los generos seleccionados por el usuario</span></li><li class='list-item'><span class='categoria'>Pantalla de foro:</span><span class='modalML1 contenido'>Busqueda de foros por videojuego especifico con publicaciones creadas por usuarios</span></li><li class='list-item'><span class='categoria'>Pantalla de Chat:</span><span class='modalML1 contenido'>Los usuarios pueden añadir y comunicarse con otros usuarios previamente añadidos a la lista de amigos</span></li><li class='list-item'><span class='categoria'>Pantalla de perfil:</span><span class='modalML1 contenido'>El usuario puede modificar su perfil y visualizar las publicaciones creadas</span></li></ul></div>",
             "Images": [
                 "https://i.imgur.com/Jkq4vOc.png",
-                "https://i.imgur.com/aQug2Ia.jpeg",
-                "https://i.imgur.com/aQug2Ia.jpeg",
-                "https://i.imgur.com/aQug2Ia.jpeg"
+                "https://imgur.com/gPMwRO6.png",
+                "https://imgur.com/LCrT40V.png",
+                "https://imgur.com/oBAxSv0.png",
+                "https://imgur.com/pVbMWsM.png"
             ],
             "gh": "https://github.com/conettoovando/Cublit",
             "tec": [
@@ -34,7 +35,7 @@
                     "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
                 }
             ],
-            "video": "https://youtu.be/IoMWvjduG7E?si=T02SIJwaYI-Okb_c"
+            "video": "https://www.youtube.com/channel/UC72nQCwqR9ox1bEvwUTl7wQ"
         },
         {
             "id": 2,
