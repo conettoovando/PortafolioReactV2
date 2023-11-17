@@ -146,6 +146,12 @@
     height: 3rem !important;
     margin-right: 1rem;
     object-fit: cover;
+
+}
+
+.flask {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
 }
 
 .blockCenter {

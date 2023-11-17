@@ -33,21 +33,22 @@ export default function ProjectCard({ project }) {
   }
 
   var getImageLength = project.tec?.length ?? 0; 
-  console.log(getImageLength);
 
   return (
     <article className='project'>
-      <h3>{project.name}</h3>
-      <p className='textDescription text'>{project.pre_description}</p>
+      <div className="content-container">
+          <h3>{project.name}</h3>
+          <p className='textDescription text'>{project.pre_description}</p>
+      </div>
       <img src={project.Images?.[0]} alt={project.name} />
       <div className="link-container">
-        <a href={project.gh} target='_blank' rel="noreferrer">
-          <i className="fab fa-github"></i> Code
-        </a>
-        <a className='yellow' onClick={openModal}>
-          <i class="fas fa-caret-right"></i> Ver más
-        </a>
-      </div>
+              <a href={project.gh} target='_blank' rel="noreferrer">
+                  <i className="fab fa-github"></i> Code
+              </a>
+              <a className='yellow' onClick={openModal}>
+                  <i className="fas fa-caret-right"></i> Ver más
+              </a>
+          </div>
       <Suspense fallback={<div>Loading...</div>}>
           {isOpen && (
             <LazyModal isOpen={isOpen} closeModal={closeModal}>
@@ -61,10 +62,7 @@ export default function ProjectCard({ project }) {
                   </div>
                   <ul className="puntos">
                     {project.Images?.map((imagen, index) => (
-                      selectedImage === index ? 
-                        <li className="punto activo" key={index} onClick={() => handleImageSelector(index)}></li> 
-                          : 
-                        <li className="punto" key={index} onClick={() => handleImageSelector(index)}></li>
+                        <li className={selectedImage === index ? 'punto activo' : 'punto'} key={index} onClick={() => handleImageSelector(index)}></li>
                     ))}
                   </ul>
                 </div>
@@ -73,7 +71,7 @@ export default function ProjectCard({ project }) {
                   {project.tec.map((tecnologia) => (
                     <div key={tecnologia.id}>
                       <span className='textIcon'>{tecnologia.name}</span>
-                      <img src={tecnologia.icon} alt={tecnologia.name} className='tecIcon' key={tecnologia.id} />
+                      <img src={tecnologia.icon} alt={tecnologia.name} className={`tecIcon ${tecnologia.name === 'Flask' && 'flask'}`} key={tecnologia.id} />
                     </div>
                   ))}
                 </div>

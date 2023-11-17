@@ -39,12 +39,36 @@
         },
         {
             "id": 2,
-            "name": "Project 2",
-            "description": "This is project 2"
+            "name": "Validador de rut chileno ",
+            "pre_description": "Aplicación de escritorio desarrollada en python y tkinter, que permite validar un rut chileno desde un archivo de excel y mostrar los resultados en una tabla con los datos de los rut invalidos.",
+            "description": "Esta aplicación creada por la motivacion de identificar los rut que esten erroneos dentro de un archivo de excel, para esto se creo una aplicación de escritorio en python y tkinter, la cual permite seleccionar un archivo de excel y validar los rut que esten en la columna rut seleccionada, mostrando los resultados en una tabla con los datos de los rut invalidos.",
+            "Images": [
+                "https://i.imgur.com/rLGNi7K.png",
+                "https://i.imgur.com/l1cGqWI.png"
+            ],
+            "gh": "https://github.com/conettoovando/rutificador",
+            "tec": [
+                {
+                    "id": 1,
+                    "name": "Python",
+                    "icon": "https://cdn.iconscout.com/icon/free/png-512/python-14-569257.png"
+                },
+                {
+                    "id": 2,
+                    "name": "Flask",
+                    "icon": "https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png"
+                }
+            ],
+            "video": "https://www.youtube.com/channel/UC72nQCwqR9ox1bEvwUTl7wQ"
         },
         {
             "id": 3,
             "name": "Project 3",
+            "description": "This is project 3"
+        },
+        {
+            "id": 4,
+            "name": "Project 4",
             "description": "This is project 3"
         }
     ]

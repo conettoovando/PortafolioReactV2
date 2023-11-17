@@ -23,9 +23,10 @@
 
 .projectContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     gap: 20px;
 }
+
 
 .projectScreen .container .projectContainer .project {
     outline: 1px dotted #cccccc94;
@@ -40,6 +41,15 @@
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.content-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .projectScreen .container .projectContainer .project:hover {
@@ -71,15 +81,10 @@
     background-color: #444444;
     outline: 1px solid #000;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
 
-.projectScreen .container .projectContainer .project .link-container {
+.link-container {
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -94,7 +99,6 @@
     color: #fff;
     text-decoration: none;
     margin-top: 10px;
-
 }
 
 .projectScreen .container .projectContainer .project .link-container a:hover {

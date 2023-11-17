@@ -44,7 +44,7 @@ export default function SobreMi(){
                     {options[selected].description.map(option => (
                         <div key={option.name} className={`tecDescription`}>
                             <p>{option.name}</p>
-                            <img src={option.icon} className='tecIcon' alt={option.name} />
+                            <img src={option.icon} className={`tecIcon ${option.name === 'Flask' && 'flask'} `} alt={option.name} />
                         </div>
                     ))}
                 </div>
