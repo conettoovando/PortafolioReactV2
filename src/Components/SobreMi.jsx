@@ -24,7 +24,7 @@ export default function SobreMi(){
                 <h2>🫡 Sobre Mi</h2>
                 <img src={LapTop} alt="" />
                 <p className='text'>
-                    Soy un joven ingeniero informático egresado de la universidad Andres Bello con una gran pasión por la tecnologia y el desarrollo de software.<br/><br/>
+                    Soy un joven ingeniero informático egresado de la universidad Andrés Bello con una gran pasión por la tecnología y el desarrollo de software.<br/><br/>
                     Me interesa profundizar mis conocimientos sin limitarme, es por esto qué, estoy comprometido al aprendizaje constante asumiendo nuevos desafíos y explorando diversas tecnologías.<br/><br/>
                     He explorado diversas áreas del desarrollo de software, como el desarrollo web, desarrollo de aplicaciones móviles, desarrollo de aplicaciones de escritorio, entre otros. Pero te dejare los lenguajes que he aprendido y las tecnologías que he utilizado.             
                 </p>

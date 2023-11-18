@@ -3,8 +3,8 @@
         {
             "id": 1,
             "name": "Proyecto de titulo universitario",
-            "pre_description": "Este proyecto realizado en react native, tiene como objetivo principal, ayudar a los usuarios a encontrar los beneficios de los videojuegos, ya sea para la salud mental, fisica, entre otros mediante una aplicacion movil.",
-            "description": "Para la presentación de mi titulo de grado para ing. en computación e informática surgio la idea de crear un proyecto orientado a los beneficios de los videojuegos por categorias, para esto se creo una aplicación movil en React Native. \n La aplicación cuenta con un Login y registro de usuarios, los cuales tendrán acceso a multiples vistas y servicios, tales como: \n\n <div class='modalML5'><ul><li class='list-item'><span class='categoria'>Pantalla de inicio:</span><span class='modalML1 contenido'>En la pantalla principal se pueden encontrar publicaciones de beneficios de videojuegos de todos los generos seleccionados por el usuario</span></li><li class='list-item'><span class='categoria'>Pantalla de foro:</span><span class='modalML1 contenido'>Busqueda de foros por videojuego especifico con publicaciones creadas por usuarios</span></li><li class='list-item'><span class='categoria'>Pantalla de Chat:</span><span class='modalML1 contenido'>Los usuarios pueden añadir y comunicarse con otros usuarios previamente añadidos a la lista de amigos</span></li><li class='list-item'><span class='categoria'>Pantalla de perfil:</span><span class='modalML1 contenido'>El usuario puede modificar su perfil y visualizar las publicaciones creadas</span></li></ul></div>",
+            "pre_description": "Este proyecto realizado en React Native, tiene como objetivo principal, ayudar a los usuarios a encontrar los beneficios de los videojuegos, ya sea para la salud mental, física, entre otros mediante una aplicación móvil.",
+            "description": "Para la presentación de mi título de grado para ing. en computación e informática surgió la idea de crear un proyecto orientado a los beneficios de los videojuegos por categorías, para esto se creó una aplicación móvil en React Native. \n La aplicación cuenta con un Login y registro de usuarios, los cuales tendrán acceso a múltiples vistas y servicios, tales como: \n\n <div class='modalML5'><ul><li class='list-item'><span class='categoria'>Pantalla de inicio:</span><span class='modalML1 contenido'>En la pantalla principal se pueden encontrar publicaciones de beneficios de videojuegos de todos los géneros seleccionados por el usuario</span></li><li class='list-item'><span class='categoria'>Pantalla de foro:</span><span class='modalML1 contenido'>Búsqueda de foros por videojuego especifico con publicaciones creadas por usuarios</span></li><li class='list-item'><span class='categoria'>Pantalla de Chat:</span><span class='modalML1 contenido'>Los usuarios pueden añadir y comunicarse con otros usuarios previamente añadidos a la lista de amigos</span></li><li class='list-item'><span class='categoria'>Pantalla de perfil:</span><span class='modalML1 contenido'>El usuario puede modificar su perfil y visualizar las publicaciones creadas</span></li></ul></div>",
             "Images": [
                 "https://i.imgur.com/Jkq4vOc.png",
                 "https://imgur.com/gPMwRO6.png",
@@ -35,13 +35,13 @@
                     "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
                 }
             ],
-            "video": "https://www.youtube.com/channel/UC72nQCwqR9ox1bEvwUTl7wQ"
+            "video": "https://youtu.be/G7ECdAYrFh8?si=5MPwkseH-nNCHUrf"
         },
         {
             "id": 2,
             "name": "Validador de rut chileno ",
-            "pre_description": "Aplicación de escritorio desarrollada en python y tkinter, que permite validar un rut chileno desde un archivo de excel y mostrar los resultados en una tabla con los datos de los rut invalidos.",
-            "description": "Esta aplicación creada por la motivacion de identificar los rut que esten erroneos dentro de un archivo de excel, para esto se creo una aplicación de escritorio en python y tkinter, la cual permite seleccionar un archivo de excel y validar los rut que esten en la columna rut seleccionada, mostrando los resultados en una tabla con los datos de los rut invalidos.",
+            "pre_description": "Aplicación de escritorio desarrollada en python y tkinter, que permite validar un Rut chileno desde un archivo de Excel y mostrar los resultados en una tabla con los datos de los Rut inválidos.",
+            "description": "Esta aplicación creada por la motivación de identificar los Rut que estén erróneos dentro de un archivo de Excel, para esto se creó una aplicación de escritorio en Python y Tkinter, la cual permite seleccionar un archivo de Excel y validar los Rut que estén en la columna Rut seleccionada, mostrando los resultados en una tabla con los datos de los Rut inválidos.",
             "Images": [
                 "https://i.imgur.com/rLGNi7K.png",
                 "https://i.imgur.com/l1cGqWI.png"
@@ -59,17 +59,7 @@
                     "icon": "https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png"
                 }
             ],
-            "video": "https://www.youtube.com/channel/UC72nQCwqR9ox1bEvwUTl7wQ"
-        },
-        {
-            "id": 3,
-            "name": "Project 3",
-            "description": "This is project 3"
-        },
-        {
-            "id": 4,
-            "name": "Project 4",
-            "description": "This is project 3"
+            "video": "https://www.youtube.com/watch?v=fJfLLNN2ZaE"
         }
     ]
 }
