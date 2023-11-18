@@ -1,4 +1,4 @@
-import './NavBar.css';
+import './Navbar.css';
 import { Link } from 'react-scroll';
 import audioOrg from '../assets/sonido2.mp3'
 
