@@ -1,18 +1,8 @@
 import './Navbar.css';
 import { Link } from 'react-scroll';
-import audioOrg from '../assets/sonido2.mp3'
+import { playSoundSwift } from '../utils/useSound';
 
 export default function Navbar() {
-    const playSound = (route) => {
-        const selected = document.getElementsByClassName('active').item(0).innerHTML;
-        if (selected === route) return;
-        const audio = new Audio(audioOrg);
-        audio.volume = 0.05;
-        audio.currentTime = 0.5;
-        audio.play();
-        document.getElementById('menu-toggle').checked = false;
-    };
-
     return (
         <nav>
             <input id="menu-toggle" type="checkbox" />
@@ -27,7 +17,7 @@ export default function Navbar() {
                   smooth={true}
                   duration={500}
                   className='link'
-                  onClick={() => playSound('Inicio')}
+                  onClick={() => playSoundSwift('Inicio')}
                 >
                   Inicio
                 </Link>
@@ -39,7 +29,7 @@ export default function Navbar() {
                   smooth={true}
                   duration={500}
                   className='link'
-                  onClick={() => playSound('Sobre mi')}
+                  onClick={() => playSoundSwift('Sobre mi')}
                 >
                   Sobre mi
                 </Link>
@@ -51,7 +41,7 @@ export default function Navbar() {
                   smooth={true}
                   duration={500}
                   className='link'
-                  onClick={() => playSound('Proyectos')}
+                  onClick={() => playSoundSwift('Proyectos')}
                 >
                   Proyectos
                 </Link>
@@ -63,7 +53,7 @@ export default function Navbar() {
                   smooth={true}
                   duration={500}
                   className='link'
-                  onClick={() => playSound('Contacto')}
+                  onClick={() => playSoundSwift('Contacto')}
                 >
                   Contacto
                 </Link>

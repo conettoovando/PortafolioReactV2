@@ -2,19 +2,13 @@ import './SobreMi.css'
 import LapTop from '../assets/laptop.jpeg'
 import { useState } from 'react';
 import { options } from '../constants/devTools';
-import audioOrg from '../assets/sonido.mp3'
+import { playSoundClick } from '../utils/useSound';
 
 export default function SobreMi(){
     const [selected, setSelected] = useState(0);
 
-    const playSound = () => {
-        const audio = new Audio(audioOrg);
-        audio.volume = 0.2;
-        audio.play();
-    };
-
     const handleSelected = (value) => {
-        playSound(); // Reproducir el sonido al hacer clic en el botón
+        playSoundClick(); // Reproducir el sonido al hacer clic en el botón
         setSelected(value);
     };
 

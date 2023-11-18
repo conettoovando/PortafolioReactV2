@@ -1,4 +1,5 @@
 import './Contacto.css'
+import { playSoundClick } from '../utils/useSound'
 
 export default function Contacto(){
     return(
@@ -22,7 +23,7 @@ export default function Contacto(){
                     <div className="row">
                         <img width="36" height="36" src="https://img.icons8.com/color/48/video-conference.png" alt="video-conference"/>
                         <p className='tituloContacto ml-2'>Videollamada:</p>
-                        <a href="https://tidycal.com/crisonetto01" target="_blank" className="btn btn-primary ml-2" rel="noreferrer">Agendar</a>
+                        <a href="https://tidycal.com/crisonetto01" target="_blank" className="btn btn-primary ml-2" rel="noreferrer" onClick={playSoundClick}>Agendar</a>
                         <p className='ml-2 animation'>👈</p>
                     </div>
                 </div>

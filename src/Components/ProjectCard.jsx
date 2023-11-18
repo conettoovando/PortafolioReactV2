@@ -1,6 +1,7 @@
 /* eslint-disable */
 import { useState, lazy, Suspense } from 'react';
 import './ProjectCard.css';
+import { playSoundClick, playSoundSwift } from '../utils/useSound';
 
 const LazyModal = lazy(() => import('./Modal'));
 
@@ -9,6 +10,7 @@ export default function ProjectCard({ project }) {
   const [selectedImage, setSelectedImage] = useState(0);
 
   const openModal = () => {
+    playSoundClick();
     setIsOpen(true);
     document.body.classList.add('no-scroll')
   };
@@ -24,8 +26,8 @@ export default function ProjectCard({ project }) {
 
   const handleImageSelector = (e) => {
     /*Trasladar carrousel */
+    playSoundSwift();
     const carrousel = document.querySelector('.grande');
-    const puntos = document.querySelector('.puntos');
     const punto = document.querySelectorAll('.punto');
     carrousel.style.transform = `translateX(-${e * 100/imagesLen}%)`;
     punto.forEach(punto => punto.classList.remove('activo'));
@@ -42,7 +44,7 @@ export default function ProjectCard({ project }) {
       </div>
       <img src={project.Images?.[0]} alt={project.name} />
       <div className="link-container">
-              <a href={project.gh} target='_blank' rel="noreferrer">
+              <a href={project.gh} target='_blank' rel="noreferrer" onClick={playSoundClick}>
                   <i className="fab fa-github"></i> Code
               </a>
               <a className='yellow' onClick={openModal}>
@@ -79,10 +81,10 @@ export default function ProjectCard({ project }) {
                   Si te interesa saber más de esta aplicación puedes visitar el repositorio en GitHub o visualizarla en el siguiente video de YouTube:
                 </p>
                 <div className="link-container">
-                  <a href={project.gh} target='_blank' rel="noreferrer">
+                  <a href={project.gh} target='_blank' rel="noreferrer" onClick={playSoundClick}>
                     <i className="fab fa-github"></i> GitHub
                   </a>
-                  <a className='yellow' href={project.video} target='_blank' rel='noreferrer'>
+                  <a className='yellow' href={project.video} target='_blank' rel='noreferrer' onClick={playSoundClick}>
                     <i className="fab fa-youtube"></i> Youtube
                   </a>
               </div>
