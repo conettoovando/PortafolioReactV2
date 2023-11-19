@@ -18,6 +18,7 @@ export default function Navbar() {
                   duration={500}
                   className='link'
                   onClick={() => playSoundSwift('Inicio')}
+                  offset={0}
                 >
                   Inicio
                 </Link>
@@ -30,6 +31,7 @@ export default function Navbar() {
                   duration={500}
                   className='link'
                   onClick={() => playSoundSwift('Sobre mi')}
+                  offset={50}
                 >
                   Sobre mi
                 </Link>
@@ -42,6 +44,7 @@ export default function Navbar() {
                   duration={500}
                   className='link'
                   onClick={() => playSoundSwift('Proyectos')}
+                  offset={50}
                 >
                   Proyectos
                 </Link>
@@ -54,6 +57,7 @@ export default function Navbar() {
                   duration={500}
                   className='link'
                   onClick={() => playSoundSwift('Contacto')}
+                  offset={50}
                 >
                   Contacto
                 </Link>
